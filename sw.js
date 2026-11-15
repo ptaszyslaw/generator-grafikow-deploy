@@ -1,7 +1,7 @@
 // Service worker Generatora grafików: zapamiętuje pliki aplikacji, żeby działała bez internetu.
 // Dane grafiku nie przechodzą przez ten plik — zostają w pliku użytkownika i w jego przeglądarce.
 // Strategia: najpierw sieć (nowa wersja od razu, gdy jest internet), przy braku sieci kopia z pamięci.
-const PAMIEC = 'generator-grafikow-3731cf0';
+const PAMIEC = 'generator-grafikow-383ed74';
 const PLIKI = ['./', 'index.html', 'manifest.webmanifest', 'ikona-192.png', 'ikona-512.png', 'ikona-maskowalna-512.png', 'favicon-32.png'];
 
 self.addEventListener('install', zdarzenie => {
